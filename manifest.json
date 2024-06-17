@@ -1,0 +1,13 @@
+{
+  "name": "FinRates",
+  "short_name": "FinRates",
+  "start_url": "/test/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/logos/favicon1.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
