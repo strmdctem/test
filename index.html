@@ -28,6 +28,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
+        console.log('Service Worker is registered');
         navigator.serviceWorker.register('./service-worker.js');
       });
     }

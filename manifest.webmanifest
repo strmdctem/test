@@ -1,0 +1,22 @@
+{
+  "name": "FinRates",
+  "short_name": "FinRates",
+  "description": "Progressive Web App for Financial Rates",
+  "start_url": "/test/",
+  "scope": "/test/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/test/logos/favicon1.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/test/logos/favicon1.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ]
+}
