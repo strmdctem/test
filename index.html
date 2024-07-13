@@ -18,36 +18,36 @@
     <title>FinRates</title>
     <link rel="icon" href="./logos/favicon.ico" type="image/x-icon" />
     <link rel="manifest" href="./manifest.webmanifest" />
-    <script type="module" crossorigin src="./assets/index-q3dXkVAk.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-TDPrvIef.css">
+    <script type="module" crossorigin src="./assets/index-BI82DSLX.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DxDVjCtS.css">
   </head>
 
   <body>
     <div id="root"></div>
   </body>
   <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        console.log('Service Worker is registered');
-        navigator.serviceWorker.register('./service-worker.js');
-      });
-    }
+    // if ('serviceWorker' in navigator) {
+    //   window.addEventListener('load', function () {
+    //     console.log('Service Worker is registered');
+    //     navigator.serviceWorker.register('./service-worker.js');
+    //   });
+    // }
   </script>
   <script>
-    let deferredPrompt;
+    // let deferredPrompt;
 
-    window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
-      deferredPrompt.prompt();
-      deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          console.log('User accepted the A2HS prompt');
-        } else {
-          console.log('User dismissed the A2HS prompt');
-        }
-        deferredPrompt = null;
-      });
-    });
+    // window.addEventListener('beforeinstallprompt', (e) => {
+    //   e.preventDefault();
+    //   deferredPrompt = e;
+    //   deferredPrompt.prompt();
+    //   deferredPrompt.userChoice.then((choiceResult) => {
+    //     if (choiceResult.outcome === 'accepted') {
+    //       console.log('User accepted the A2HS prompt');
+    //     } else {
+    //       console.log('User dismissed the A2HS prompt');
+    //     }
+    //     deferredPrompt = null;
+    //   });
+    // });
   </script>
 </html>
